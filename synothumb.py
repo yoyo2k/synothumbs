@@ -183,7 +183,7 @@ class convertMedia(threading.Thread):
                 self.queue.task_done()
                 continue
             
-            print "    [-]Now working on %s" % (path)
+            print "    [-] Now working on %s" % (path)
 
             if os.path.isdir(thumbDir) != 1:
                 try: os.makedirs(thumbDir)
